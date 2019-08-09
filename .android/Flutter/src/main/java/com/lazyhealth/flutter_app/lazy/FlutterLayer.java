@@ -51,7 +51,7 @@ public class FlutterLayer {
 
         if (routerUrl == null || routerUrl.isEmpty()) {
             Log.d("flutter", "routerUrl is null");
-        } else {    
+        } else {
             Map<String, Object> map = new HashMap<>();
             map.put("route", routerUrl);
             map.put("arguments", arguments.getMap());
