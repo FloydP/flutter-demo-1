@@ -79,7 +79,7 @@ def install_flutter_application_pod(flutter_application_path)
     `echo "static const int Moo = 88;" | xcrun clang -x c -dynamiclib -o "#{app_framework_dylib}" -`
   end
 
-  pod 'flutter_app', :path => __dir__, :inhibit_warnings => true
+  pod 'flutter_module', :path => __dir__, :inhibit_warnings => true
 
   # Use relative paths for script phase paths since these strings will likely be checked into source controls.
   # Process will be run from project directory.

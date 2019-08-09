@@ -5,6 +5,7 @@
  * @Date: 2019-07-16
  */
 
+import 'package:flutter_app/eventbus/bus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/components/display/pageLayout.dart';
 import 'package:flutter_app/components/bussiness/common/animView.dart';
